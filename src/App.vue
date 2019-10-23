@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <counter>the counter!</counter>
+    <counter>the counter</counter>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
