@@ -1,4 +1,5 @@
-# vue-cli_4-0-5
+# vue-cli-counter-example
+built with vue-cli_4-0-5
 
 ## Project setup
 ```
