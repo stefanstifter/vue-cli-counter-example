@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
+import Counter from "./components/Counter.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Counter
   }
-}
+};
 </script>
