@@ -1,14 +1,17 @@
 # vue-cli-counter-example
-built with vue-cli_4-0-5
+Just a very simple counter example, to play around with vue-cli.  
+Built with vue-cli v4-0-5  
 
-## prepare for deployment
+## Deployment
+
+### Prepare local
 ```
 zip -r counter.zip dist/
-scp counter.zip ssh-w015487b@w015487b.kasserver.com:'www/htdocs/w015487b/counter.saswebdev.com'
+scp counter.zip user@host:'path/to/public/'
 ```
 
-## deploy on staging/production
-[enable extended pattern matching operators, for easy delete all files except .zip file]  
+### Unzip on staging/production
+[enable extended pattern matching operators in shell. painless deletion of all files except .zip file]  
 [`shopt -s extglob`]  
 ```
 rm -rfv !("counter.zip")
